@@ -46,7 +46,11 @@
         }
         [self.tableView reloadData];
     }];
-    CCTableSection *secondSection = [CCTableSection createWithTitle:nil andCells:@[discloseCell, checkCell]];
+    CCTableCell *inputCell = [CCTableCell createInputWithTitle:@"Type in me!" secureText:false returnTappedCallback:^(NSString *text) {
+        UIAlertView *al = [[UIAlertView alloc] initWithTitle:@"Message" message:text delegate:nil cancelButtonTitle:@"Got it!" otherButtonTitles:nil, nil];
+        [al show];
+    }];
+    CCTableSection *secondSection = [CCTableSection createWithTitle:nil andCells:@[discloseCell, checkCell, inputCell]];
     
     CCTableCell *subCell = [CCTableCell createWithTitle:@"I'm a title!" andSubtitle:@"And I'm a subtitle..." tap:nil];
     CCTableCell *tapMeCell = [CCTableCell createWithTitle:@"Tap Me!" ofStyle:UITableViewCellStyleSubtitle tap:^{

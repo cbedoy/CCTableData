@@ -14,6 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    [[UIView appearance] setTintColor:[UIColor redColor]];
     
     TableViewDemo *demo = [[TableViewDemo alloc] initWithStyle:UITableViewStyleGrouped];
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:demo];

@@ -23,6 +23,7 @@
 		4F48ACBB18B46BAD00603A94 /* CCTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F48ACB718B46BAD00603A94 /* CCTableData.m */; };
 		4F48ACBC18B46BAD00603A94 /* CCTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F48ACB918B46BAD00603A94 /* CCTableSection.m */; };
 		4F48ACC018B46BF600603A94 /* TableViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F48ACBF18B46BF600603A94 /* TableViewDemo.m */; };
+		4F87CE3118B5CD5C006CE119 /* CCInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F87CE3018B5CD5C006CE119 /* CCInputCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		4F48ACB918B46BAD00603A94 /* CCTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableSection.m; sourceTree = "<group>"; };
 		4F48ACBE18B46BF600603A94 /* TableViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemo.h; sourceTree = "<group>"; };
 		4F48ACBF18B46BF600603A94 /* TableViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemo.m; sourceTree = "<group>"; };
+		4F87CE2F18B5CD5C006CE119 /* CCInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCInputCell.h; sourceTree = "<group>"; };
+		4F87CE3018B5CD5C006CE119 /* CCInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCInputCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				4F48ACB718B46BAD00603A94 /* CCTableData.m */,
 				4F48ACB818B46BAD00603A94 /* CCTableSection.h */,
 				4F48ACB918B46BAD00603A94 /* CCTableSection.m */,
+				4F87CE2F18B5CD5C006CE119 /* CCInputCell.h */,
+				4F87CE3018B5CD5C006CE119 /* CCInputCell.m */,
 			);
 			name = CCTableData;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F48ACBB18B46BAD00603A94 /* CCTableData.m in Sources */,
+				4F87CE3118B5CD5C006CE119 /* CCInputCell.m in Sources */,
 				4F48AC9518B46B7900603A94 /* AppDelegate.m in Sources */,
 				4F48ACBC18B46BAD00603A94 /* CCTableSection.m in Sources */,
 				4F48ACBA18B46BAD00603A94 /* CCTableCell.m in Sources */,
@@ -481,6 +487,7 @@
 				4F48ACAF18B46B7900603A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F48ACB018B46B7900603A94 /* Build configuration list for PBXNativeTarget "CCTableDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +496,7 @@
 				4F48ACB218B46B7900603A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
