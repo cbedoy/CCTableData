@@ -41,7 +41,7 @@
     cell.title = title;
     cell.subtitle = subTitle;
     cell.callbackTap = block;
-    cell.style = UITableViewCellStyleValue1;
+    cell.style = UITableViewCellStyleSubtitle;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
@@ -100,8 +100,8 @@ static float systemVersion = 0.0; // Querying the OS for its version is slow; ca
         // If this is a UITableViewVellValue2 and we're on iOS 7, set the tint color to match the system
         if (self.style == UITableViewCellStyleValue2) {
             if (systemVersion >= 7.0) {
-                UIColor *globalTint = [[[UIApplication sharedApplication] delegate] window].tintColor;
-                cell.textLabel.tintColor = globalTint;
+                UIColor *globalTint = [UIView appearance].tintColor;
+                cell.textLabel.textColor = globalTint;
             }
         }
         
