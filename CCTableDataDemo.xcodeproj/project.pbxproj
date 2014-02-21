@@ -173,7 +173,7 @@
 				4F87CE2F18B5CD5C006CE119 /* CCInputCell.h */,
 				4F87CE3018B5CD5C006CE119 /* CCInputCell.m */,
 			);
-			name = CCTableData;
+			path = CCTableData;
 			sourceTree = "<group>";
 		};
 		4F48ACBD18B46BD800603A94 /* TableViewDemo */ = {
